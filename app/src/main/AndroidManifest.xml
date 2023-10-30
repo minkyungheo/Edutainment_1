@@ -10,17 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Edutainment">
         <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".SigupActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_sigup"
             android:theme="@style/Theme.Edutainment.Fullscreen" />
         <activity
             android:name=".LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.Edutainment.Fullscreen" />
+            android:exported="true"
+            android:label="LoginActivity"
+            android:theme="@style/Theme.Edutainment.Fullscreen">
+
+        </activity>
     </application>
 
 </manifest>

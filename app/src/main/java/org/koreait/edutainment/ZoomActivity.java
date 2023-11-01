@@ -16,4 +16,9 @@ import android.view.WindowInsets;
 import org.koreait.edutainment.databinding.ActivityZoomBinding;
 
 public class ZoomActivity extends AppCompatActivity {
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.activity_zoom);
    }
+}

@@ -16,18 +16,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onPostCreate(Bundle saveInstanceState) {
         super.onPostCreate(saveInstanceState);
         setContentView(R.layout.activity_main);
-/*
+
         sign = findViewById(R.id.SpeakButton);
         sign.setOnClickListener(v ->{
-            Intent intent = new Intent(this,SigupActivity.class);
+            Intent intent = new Intent(this,SpeakActivity.class);
             startActivity(intent);
         });
 
-        sign = findViewById(R.id.loginbutton);
+        sign = findViewById(R.id.PlayButton);
         sign.setOnClickListener(v ->{
-            Intent intent = new Intent(this,MainActivity.class);
+            Intent intent = new Intent(this,ZoomActivity.class);
             startActivity(intent);
-        });*/
+        });
     }
 
 }

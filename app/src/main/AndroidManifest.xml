@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Edutainment">
         <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
             android:name=".ZoomActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"

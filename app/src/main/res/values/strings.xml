@@ -5,4 +5,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_sigup">SigupActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_speak">SpeakActivity</string>
+    <string name="title_activity_zoom">ZoomActivity</string>
 </resources>

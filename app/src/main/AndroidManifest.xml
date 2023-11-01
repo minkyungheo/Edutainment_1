@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Edutainment">
-
+        <activity
+            android:name=".ZoomActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_zoom"
+            android:theme="@style/Theme.Edutainment.Fullscreen" />
+        <activity
+            android:name=".SpeakActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_speak"
+            android:theme="@style/Theme.Edutainment.Fullscreen" />
         <activity
             android:name=".IntroActivity"
             android:exported="true">
@@ -30,13 +41,13 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="LoginActivity"
-            android:theme="@style/Theme.Edutainment.Fullscreen"></activity>
+            android:theme="@style/Theme.Edutainment.Fullscreen" />
         <activity
-        android:name=".MainActivity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:exported="false"
-        android:label="@string/title_activity_main"
-        android:theme="@style/Theme.Edutainment.Fullscreen" />
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Edutainment.Fullscreen" />
     </application>
 
 </manifest>
